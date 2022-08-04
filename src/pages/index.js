@@ -1,12 +1,12 @@
-import * as React from "react";
+import * as React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/layout";
 
 const Homepage = ()=>{
   return (
-    <>
-      <title>Home Page</title>
-      <h1>Hi,</h1>
-      <p>Welcome to my first Gatsby Site!</p>
-    </>
+    <Layout pageHeading='Home' pageTitle='Home Page'>
+      Welcome to my new Gatsby site!
+    </Layout>
   )
 };
 
