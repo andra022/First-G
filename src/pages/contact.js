@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 const ContactPage = ()=>{
   return (
     <Layout pageHeading='Contact' pageTitle='Contact Us'>
-        Children example
+        Instagram: @beluuu.16
     </Layout>
   );
 };
