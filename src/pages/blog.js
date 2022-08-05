@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageHeading='My Blog Posts' pageTitle="My Blog Posts">
       <ul>
         {
         data.allFile.nodes.map( node => (
